@@ -9,7 +9,7 @@ public class Git {
 		Scanner input = new Scanner(System.in);
 		int one = input.nextInt();
 		int two = input.nextInt();
-		int avg = one + two;
+		double avg = (one + two)/2; //divided the sum by 2 and made it a double
 		System.out.print(avg);
 		
 	}
